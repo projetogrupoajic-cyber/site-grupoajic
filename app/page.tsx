@@ -54,11 +54,17 @@ export default function Home() {
                 <Scale className="mx-auto h-10 w-10 text-cyan-400" />
                 <h3 className="mt-4 text-sm font-semibold uppercase tracking-[0.2em] text-slate-100">Jurídico</h3>
                 <p className="mt-2 text-xs text-slate-400">Trabalhista, família e tributário</p>
+                <a href="/juridico" className="mt-4 inline-flex rounded-full bg-emerald-500 px-4 py-2 text-xs font-semibold text-slate-950 transition hover:bg-emerald-400">
+                  Saiba mais
+                </a>
               </div>
               <div className="rounded-3xl bg-slate-950/70 p-5 text-center">
                 <Calculator className="mx-auto h-10 w-10 text-amber-400" />
                 <h3 className="mt-4 text-sm font-semibold uppercase tracking-[0.2em] text-slate-100">Contábil</h3>
                 <p className="mt-2 text-xs text-slate-400">IR, RH e gestão fiscal</p>
+                <a href="/contabil" className="mt-4 inline-flex rounded-full bg-emerald-500 px-4 py-2 text-xs font-semibold text-slate-950 transition hover:bg-emerald-400">
+                  Saiba mais
+                </a>
               </div>
             </div>
           </div>

@@ -2,8 +2,21 @@ export default function SalesPage() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto max-w-6xl px-6 py-16">
-        <h1 className="text-4xl font-bold text-white">Imóveis Venda</h1>
-        <p className="mt-4 text-slate-300">Encontre imóveis para comprar com facilidade e segurança.</p>
+        <div className="relative overflow-hidden rounded-3xl border border-slate-800/80 bg-slate-900/80 px-8 py-14">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage:
+                "url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80')",
+            }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-950/80 via-slate-950/50 to-slate-950/90" />
+          <div className="absolute inset-0 backdrop-blur-sm" />
+          <div className="relative">
+            <h1 className="text-4xl font-bold text-white">Imóveis Venda</h1>
+            <p className="mt-4 text-slate-300">Encontre imóveis para comprar com facilidade e segurança.</p>
+          </div>
+        </div>
 
         <section className="mt-10 rounded-3xl border border-slate-800/80 bg-slate-900/80 p-8">
           <h2 className="text-2xl font-semibold text-white">Filtros</h2>
